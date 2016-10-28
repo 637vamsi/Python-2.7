@@ -1,0 +1,16 @@
+a=1
+b=2
+c=a+b
+li=[1,2]
+while(c<4000000):
+    li.append(c)
+    c=a+b
+    a=b
+    b=c
+sum=0
+for i in li:
+    if i%2==0:
+        sum+=i
+print sum
+
+    
