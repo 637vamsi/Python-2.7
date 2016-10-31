@@ -1,0 +1,10 @@
+a=0
+for i in xrange(900,999):
+	for j in xrange(100,999):
+		c=i*j
+		d=str(c)
+		e=d[::-1]
+		if c == int(e):
+			if a<c:
+				a=c
+print a
