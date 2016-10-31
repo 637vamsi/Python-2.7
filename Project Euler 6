@@ -1,0 +1,5 @@
+N = 100
+sumSQ = N*(N+1)*(2*N+1)/6
+sumN = N*(N+1)/2
+isq = sumN*sumN
+print isq-sumSQ
