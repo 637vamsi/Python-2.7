@@ -1,0 +1,11 @@
+a= 600851475143
+i=2
+li=[]
+while i<a:
+	global a
+	if a%i==0:
+		global a
+		a/=i
+		i-=1
+	i+=1
+print a
