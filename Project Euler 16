@@ -1,0 +1,8 @@
+a=2**1000
+b=str(a)
+#print b
+sum=0
+for i in b:
+    c=int(i)
+    sum+=c
+print sum
