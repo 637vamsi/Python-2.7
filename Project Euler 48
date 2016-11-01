@@ -1,0 +1,5 @@
+sum=0
+for i in xrange(1,1000,1):
+    sum+=i**i
+str=str(sum)
+print str[len(str)-10:]
