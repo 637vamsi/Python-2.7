@@ -1,0 +1,10 @@
+sum = 0
+for i in xrange(10,1000000):
+    j5=0
+    for j in str(i):
+        j5+=int(j)**5
+    #print j5,i
+    if j5 == i:
+        sum += i
+    
+print("Sum of numbers : ",sum)
