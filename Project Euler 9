@@ -1,0 +1,8 @@
+for a in xrange(1,1000):#a 
+    for b in xrange(a,1000-a):#b 
+        c=1000-a-b#c
+        if c < b :
+            break
+        if a*a + b*b == c*c :
+            print "product is:",a*b*c
+            break
